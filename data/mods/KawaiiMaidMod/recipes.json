@@ -1003,5 +1003,59 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 4 ] ],
     "components": [ [ [ "rag", 4 ] ] ]
+  },
+  {
+    "//": "EXノーマル→EXロングへの変換レシピ",
+    "type": "recipe",
+    "result": "kawaii_maid_dress_ex_long",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "skills_required": [ "tailor", 4 ],
+    "time": "1 m",
+    "autolearn": true,
+    "components": [ [ [ "kawaii_maid_dress_ex", 1 ] ] ]
+  },
+  {
+    "//": "EXロング→EXノーマルへの変換レシピ",
+    "type": "recipe",
+    "result": "kawaii_maid_dress_ex",
+    "id_suffix": "transform",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "skills_required": [ "tailor", 4 ],
+    "time": "1 m",
+    "autolearn": true,
+    "components": [ [ [ "kawaii_maid_dress_ex_long", 1 ] ] ]
+  },
+  {
+    "//": "LSSノーマル→LSSロングへの変換レシピ",
+    "type": "recipe",
+    "result": "kawaii_maid_dress_lss_long",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 9,
+    "skills_required": [ [ "tailor", 9 ], [ "electronics", 6 ] ],
+    "time": "1 m",
+    "autolearn": true,
+    "components": [ [ [ "kawaii_maid_dress_lss", 1 ] ] ]
+  },
+  {
+    "//": "LSSロング→LSSノーマルへの変換レシピ",
+    "type": "recipe",
+    "result": "kawaii_maid_dress_lss",
+    "id_suffix": "transform",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 9,
+    "skills_required": [ [ "tailor", 9 ], [ "electronics", 6 ] ],
+    "time": "1 m",
+    "autolearn": true,
+    "components": [ [ [ "kawaii_maid_dress_lss_long", 1 ] ] ]
   }
 ]
