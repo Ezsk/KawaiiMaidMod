@@ -11,7 +11,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 75,
     "encumbrance": 4,
     "max_encumbrance": 8,
@@ -38,7 +38,7 @@
     "material": [ "cotton", "leather" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 90,
     "encumbrance": 8,
     "max_encumbrance": 16,
@@ -90,7 +90,7 @@
     "material": [ "kevlar_layered", "cotton" ],
     "symbol": "[",
     "color": "green",
-    "covers": [ "LEGS", "TORSO", "ARMS" ],
+    "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ],
     "coverage": 100,
     "encumbrance": 10,
     "max_encumbrance": 20,
@@ -168,7 +168,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 85,
     "encumbrance": 5,
     "max_encumbrance": 10,
@@ -193,7 +193,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 85,
     "encumbrance": 5,
     "warmth": 10,
@@ -212,7 +212,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 85,
     "encumbrance": 4,
     "max_encumbrance": 6,
@@ -237,7 +237,7 @@
     "material": [ "plastic", "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS", "HEAD" ],
+    "covers": [ "torso", "arm_l", "arm_r", "head" ],
     "coverage": 95,
     "encumbrance": 7,
     "warmth": 5,
@@ -261,7 +261,7 @@
     "material": [ "plastic", "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS" ],
+    "covers": [ "torso", "arm_l", "arm_r" ],
     "coverage": 85,
     "encumbrance": 4,
     "warmth": 5,
@@ -287,7 +287,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 85,
     "encumbrance": 4,
     "max_encumbrance": 6,
@@ -312,7 +312,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "LEGS" ],
+    "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 100,
     "encumbrance": 0,
     "warmth": 0,
@@ -330,7 +330,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "LEGS" ],
+    "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 100,
     "encumbrance": 0,
     "warmth": 0,
@@ -349,7 +349,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 85,
     "encumbrance": 4,
     "max_encumbrance": 6,
@@ -374,7 +374,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 15,
     "warmth": 0,
     "material_thickness": 1,
@@ -391,7 +391,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 15,
     "warmth": 0,
     "material_thickness": 1,
@@ -408,7 +408,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
@@ -425,7 +425,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
@@ -442,7 +442,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
@@ -459,7 +459,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
@@ -476,7 +476,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "light_red",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
@@ -488,12 +488,12 @@
     "name": "ビキニトップ(黒)[kawaii]",
     "description": "肌色が映えるシンプルな黒ビキニトップです。",
     "weight": 32,
-    "volume": 0,
+    "volume": 1,
     "price": 1800,
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "light_red",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 10,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT" ]
@@ -509,7 +509,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "pink",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 7,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "FANCY" ]
@@ -526,7 +526,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "light_gray",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 60,
     "encumbrance": 3,
     "max_encumbrance": 5,
@@ -553,7 +553,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 25,
     "encumbrance": 2,
     "warmth": 0,
@@ -577,7 +577,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 25,
     "encumbrance": 2,
     "warmth": 30,
@@ -603,7 +603,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 25,
     "encumbrance": 2,
     "warmth": 10,
@@ -654,7 +654,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 20,
@@ -997,7 +997,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 65,
     "warmth": 20,
     "material_thickness": 1
@@ -1013,7 +1013,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "HEAD", "MOUTH" ],
+    "covers": [ "head", "mouth" ],
     "coverage": 95,
     "encumbrance": 2,
     "warmth": 25,
@@ -1031,7 +1031,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 70,
     "encumbrance": 2,
     "warmth": 15,
@@ -1049,7 +1049,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 70,
     "encumbrance": 2,
     "warmth": 15,
@@ -1067,7 +1067,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 95,
     "encumbrance": 2,
     "warmth": 5,
@@ -1085,7 +1085,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 95,
     "encumbrance": 2,
     "warmth": 5,
@@ -1098,7 +1098,8 @@
     "name": "ウィッグ(ロングウェーブ・ピンク)[kawaii]",
     "description": "優しげなゆるふわお姉さんウィッグです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_acc_hobeni",
@@ -1106,7 +1107,8 @@
     "name": "頬紅[kawaii]",
     "description": "メイクではありません。乙女心です。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_acc_eye_light",
@@ -1114,7 +1116,8 @@
     "name": "輝く目[kawaii]",
     "description": "活力を感じる目のハイライトです。(ハイライトの無い目用の後付けハイライトです)",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_02",
@@ -1122,7 +1125,8 @@
     "name": "ウィッグ(おさげ・ゴールド)[kawaii]",
     "description": "お姉さん力が上がる白いリボン付きのおさげです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_acc_darkface",
@@ -1130,7 +1134,8 @@
     "name": "悪い顔[kawaii]",
     "description": "悪い事を考えている顔です。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_acc_headset",
@@ -1138,7 +1143,8 @@
     "name": "ハイテクヘッドセット[kawaii]",
     "description": "次世代技術の詰まったハイテクヘッドセットです。(飾りです)",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_03",
@@ -1146,7 +1152,8 @@
     "name": "エクステ(ロングポニテ・ゴールド)[kawaii]",
     "description": "白いリボン付きで優雅なロングポニーテールのエクステです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_04",
@@ -1154,7 +1161,8 @@
     "name": "ウィッグ(ボブ・ゴールド)[kawaii]",
     "description": "ふわっとしたボブヘアーです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_05",
@@ -1162,7 +1170,8 @@
     "name": "ウィッグ(ボブ・ミルクティ)[kawaii]",
     "description": "ふわっとしたボブヘアーです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_06",
@@ -1170,7 +1179,8 @@
     "name": "ウィッグ(ボブ・ピンク)[kawaii]",
     "description": "ふわっとしたボブヘアーです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_07",
@@ -1178,7 +1188,8 @@
     "name": "ウィッグ(片目・ブルー)[kawaii]",
     "description": "片目を隠したヘアスタイルです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_08",
@@ -1186,7 +1197,8 @@
     "name": "ウィッグ(片目・ピンク)[kawaii]",
     "description": "片目を隠したヘアスタイルです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_09",
@@ -1194,7 +1206,8 @@
     "name": "ウィッグ(片目・シルバー)[kawaii]",
     "description": "片目を隠したヘアスタイルです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_10",
@@ -1202,7 +1215,8 @@
     "name": "ウィッグ(エルフ・ライトグリーン)[kawaii]",
     "description": "エルフをイメージしたヘアスタイルです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_11",
@@ -1210,7 +1224,8 @@
     "name": "ウィッグ(エルフ・ゴールド)[kawaii]",
     "description": "エルフをイメージしたヘアスタイルです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_12",
@@ -1218,7 +1233,8 @@
     "name": "ウィッグ(セミロング・ゴールド)[kawaii]",
     "description": "落ち着いたセミロングです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_13",
@@ -1226,7 +1242,8 @@
     "name": "ウィッグ(セミロング・ミルクティ)[kawaii]",
     "description": "落ち着いたセミロングです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_14",
@@ -1234,7 +1251,8 @@
     "name": "ウィッグ(セミロング・ブラック)[kawaii]",
     "description": "落ち着いたセミロングです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_15",
@@ -1242,7 +1260,8 @@
     "name": "ウィッグ(セミロング・シルバー)[kawaii]",
     "description": "落ち着いたセミロングです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_16",
@@ -1250,7 +1269,8 @@
     "name": "ウィッグ(ロングおさげ・ゴールド)[kawaii]",
     "description": "長い髪を軽くまとめました。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_17",
@@ -1258,7 +1278,8 @@
     "name": "ウィッグ(ロングおさげ・ミルクティ)[kawaii]",
     "description": "長い髪を軽くまとめました。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_wig_18",
@@ -1266,7 +1287,8 @@
     "name": "ウィッグ(ロングおさげ・アイスブルー)[kawaii]",
     "description": "長い髪を軽くまとめました。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_eff_heart",
@@ -1274,7 +1296,8 @@
     "name": "(エフェクト)ハート[kawaii]",
     "description": "ハートのエフェクトです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_eff_hatena",
@@ -1282,7 +1305,8 @@
     "name": "(エフェクト)？の吹き出し[kawaii]",
     "description": "？の吹き出しです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_eff_bikkuri",
@@ -1290,7 +1314,8 @@
     "name": "(エフェクト)！の吹き出し[kawaii]",
     "description": "！の吹き出しです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_eff_ase",
@@ -1298,7 +1323,8 @@
     "name": "(エフェクト)汗の吹き出し[kawaii]",
     "description": "汗マークの吹き出しです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_eff_tere",
@@ -1306,7 +1332,8 @@
     "name": "(エフェクト)///の吹き出し[kawaii]",
     "description": "照れの吹き出しです。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_acc_angelring",
@@ -1314,7 +1341,8 @@
     "name": "天使の光輪[kawaii]",
     "description": "パルックではありません。",
     "symbol": "[",
-    "color": "white"
+    "color": "white",
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "kawaii_maid_hardcase",
@@ -1328,7 +1356,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 40,
     "encumbrance": 5,
     "max_encumbrance": 30,
@@ -1349,7 +1377,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 20,
     "encumbrance": 4,
     "max_encumbrance": 18,
@@ -1370,7 +1398,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 20,
     "encumbrance": 2,
     "max_encumbrance": 8,
@@ -1417,7 +1445,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 75,
     "encumbrance": 3,
     "warmth": 35,
@@ -1435,7 +1463,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 75,
     "encumbrance": 0,
     "warmth": 0,
@@ -1453,7 +1481,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET", "LEGS" ],
+    "covers": [ "foot_l", "foot_r", "leg_l", "leg_r" ],
     "coverage": 95,
     "encumbrance": 4,
     "warmth": 40,
@@ -1471,7 +1499,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET", "LEGS" ],
+    "covers": [ "foot_l", "foot_r", "leg_l", "leg_r" ],
     "coverage": 95,
     "encumbrance": 4,
     "warmth": 40,
@@ -1489,7 +1517,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 50,
     "encumbrance": 1,
     "warmth": 5,
@@ -1507,7 +1535,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 10,
     "encumbrance": 0,
     "warmth": 0,
@@ -1525,7 +1553,7 @@
     "material": [ "leather" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 60,
     "encumbrance": 2,
     "warmth": 5,
@@ -1543,7 +1571,7 @@
     "material": [ "leather" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 60,
     "encumbrance": 2,
     "warmth": 5,
@@ -1561,7 +1589,7 @@
     "material": [ "leather" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 90,
     "warmth": 20,
     "encumbrance": 6,
@@ -1580,7 +1608,7 @@
     "material": [ "kevlar", "nomex" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 100,
     "warmth": 30,
     "encumbrance": 12,
@@ -1599,7 +1627,7 @@
     "material": [ "kevlar", "nomex" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 100,
     "warmth": 2,
     "encumbrance": 7,
@@ -1625,7 +1653,7 @@
       "target": "kawaii_scarf_loose",
       "menu_text": "スカーフを緩める"
     },
-    "covers": [ "MOUTH" ],
+    "covers": [ "mouth" ],
     "flags": [ "OUTER", "FANCY" ],
     "warmth": 30,
     "environmental_protection": 3,
@@ -1670,7 +1698,7 @@
       "target": "kawaii_scarf",
       "menu_text": "スカーフを巻き直す"
     },
-    "covers": [ "MOUTH" ],
+    "covers": [ "mouth" ],
     "flags": [ "OUTER", "FANCY" ],
     "warmth": 10,
     "environmental_protection": 3,
@@ -1690,7 +1718,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "light_blue",
-    "covers": [ "HANDS" ],
+    "covers": [ "hand_l", "hand_r" ],
     "coverage": 95,
     "encumbrance": 2,
     "warmth": 20,
