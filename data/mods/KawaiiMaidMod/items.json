@@ -1426,7 +1426,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "LEG_L" ],
+    "covers": [ "leg_l" ],
     "coverage": 5,
     "encumbrance": 1,
     "max_encumbrance": 2,
