@@ -8,7 +8,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -21,7 +21,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -34,7 +34,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -47,7 +47,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -60,7 +60,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -73,7 +73,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -86,7 +86,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -99,7 +99,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -112,7 +112,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -125,7 +125,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -138,7 +138,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -151,7 +151,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -164,7 +164,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -177,7 +177,7 @@
     "starting_trait": true,
     "valid": true,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "flags": [ "eyes_cute" ],
     "types": [ "EYES" ]
   },
@@ -190,7 +190,7 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "types": [ "skin_tone" ]
   },
   {
@@ -202,7 +202,7 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "types": [ "skin_tone" ]
   },
   {
@@ -214,7 +214,7 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "types": [ "skin_tone" ]
   },
   {
@@ -226,7 +226,7 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "types": [ "skin_tone" ]
   },
   {
@@ -238,7 +238,7 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "types": [ "skin_tone" ]
   },
   {
@@ -250,8 +250,164 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-	"profession": true,
+    "player_display": false,
     "types": [ "skin_tone" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1blondjp",
+    "name": "Cute Blonde Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) blonde.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_blond", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1redjp",
+    "name": "Cute Red Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) red.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_red", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1brownjp",
+    "name": "Cute Brown Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) brown.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_brown", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1blackjp",
+    "name": "Cute Black Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) black.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_black", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1whitejp",
+    "name": "Cute White Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) white.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_white", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1greyjp",
+    "name": "Cute Grey Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) grey.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_grey", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1pinkjp",
+    "name": "Cute Pink Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) pink.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_pink", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1orangejp",
+    "name": "Cute Orange Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) orange.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_orange", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1bluejp",
+    "name": "Cute Blue Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) blue.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_blue", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1greenjp",
+    "name": "Cute Green Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) green.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_green", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1aquajp",
+    "name": "Cute Aqua Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) aqua.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_aqua", "hair_cute" ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair1purplejp",
+    "name": "Cute Purple Hair",
+    "points": 0,
+    "description": "Your natural hair color is (or was) purple.",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "flags": [ "hair_purple", "hair_cute" ],
+    "types": [ "hair_style" ]
   }
 ]
 

@@ -3,7 +3,7 @@
     "id": "fd_cold_breezes",
     "type": "field_type",
     "intensity_levels": [
-      { "name": "そよ風", "sym": "&", "convection_temperature_mod": -10 }
+      { "name": "そよ風", "sym": " ", "convection_temperature_mod": -10 }
       ],
     "decay_amount_factor": 5,
     "percent_spread": 100,

@@ -63,5 +63,81 @@
       "male": [ "boxer_shorts" ],
       "female": [ "kawaii_maid_simapan_pink", "kawaii_maid_simabura_pink" ]
     }
+  },
+
+  {
+    "type": "profession",
+    "ident": "kawaii_catmaid",
+    "copy-from": "kawaii_maid",
+    "name": "ネコメイド[kawaii+]",
+    "points": 2,
+    "traits": [ "FELINE_EARS", "TAIL_LONG"]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_wolfmaid",
+    "copy-from": "kawaii_maid",
+    "name": "オオカミメイド[kawaii+]",
+    "points": 5,
+    "traits": [ "LUPINE_EARS", "TAIL_FLUFFY"]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_catmaid_lab",
+    "copy-from": "kawaii_catmaid",
+    "description": "大邸宅で働いている普通のメイドでしたが、ネコメイドになるために研究所の被験者に志願しました。無事に新しい身体を手に入れることができたのでそろそろ帰りましょう。もちろん、帰る場所が残っていればの話ですが。",
+    "points": 1,
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_wolfmaid_lab",
+    "copy-from": "kawaii_wolfmaid",
+    "description": "大邸宅で働いている普通のメイドでしたが、オオカミメイドになるために研究所の被験者に志願しました。無事に新しい身体を手に入れることができたのでそろそろ帰りましょう。もちろん、帰る場所が残っていればの話ですが。",
+    "points": 3,
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_catmaid2",
+    "copy-from": "kawaii_catmaid_lab",
+    "name": "ネコメイド？[kawaii+]",
+    "description": "大邸宅で働いている普通のメイドでしたが、ネコメイドになるために研究所の被験者に志願しました。……なんだか思っていたのと違うような気がします。",
+    "points": 0,
+    "traits": [ "THRESH_FELINE", "FELINE_EARS", "TAIL_LONG", "FEL_EYE", "FEL_NV", "FANGS", "PAWS", "CLAWS_RETRACT", "PADDED_FEET", "FELINE_FUR", "CARNIVORE", "SMELLY", "ANIMALDISCORD", "SLEEPY2"]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_wolfmaid2",
+    "copy-from": "kawaii_wolfmaid_lab",
+    "name": "オオカミメイド？[kawaii+]",
+    "description": "大邸宅で働いている普通のメイドでしたが、オオカミメイドになるために研究所の被験者に志願しました。……なんだか思っていたのと違うような気がします。",
+    "points": 0,
+    "traits": [ "THRESH_LUPINE", "LUPINE_EARS", "TAIL_FLUFFY", "MUZZLE", "FANGS", "PAWS", "PADDED_FEET", "LUPINE_FUR", "CARNIVORE", "SMELLY", "ANIMALDISCORD", "NIGHTVISION2", "HEAVYSLEEPER"]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_bionic_maid",
+    "copy-from": "kawaii_maid",
+    "name": "サイボーグメイド[kawaii+]",
+    "description": "大邸宅で働いている普通のメイドでしたが、サイボーグメイドになるために研究所の被験者に志願しました。",
+    "points": 6,
+    "CBMs": [
+      "bio_tools",
+      "bio_sunglasses",
+      "bio_ups",
+      "bio_purifier",
+      "bio_carbon",
+      "bio_climate",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession_item_substitutions",
+    "item": "kawaii_gloves_light",
+    "sub": [
+      { "present": [ "PAWS" ], "new": [ "kawaii_gloves_xl_light" ] }
+    ]
   }
 ]
