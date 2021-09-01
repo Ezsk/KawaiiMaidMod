@@ -6,11 +6,12 @@
     "points": 0,
     "description": "Your natural eye color is a bright blue. ",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -19,11 +20,12 @@
     "points": 0,
     "description": "Your natural eye color is a dark blue. ",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -32,11 +34,12 @@
     "points": 0,
     "description": "Your natural eye color is a bright brown.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -45,11 +48,12 @@
     "points": 0,
     "description": "Your natural eye color is a dark brown.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -58,11 +62,12 @@
     "points": 0,
     "description": "Your natural eye color is a bright gray.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -71,11 +76,12 @@
     "points": 0,
     "description": "Your natural eye color is a dark gray.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -84,11 +90,12 @@
     "points": 0,
     "description": "Your natural eye color is a bright red.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -97,11 +104,12 @@
     "points": 0,
     "description": "Your natural eye color is a dark red.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -110,11 +118,12 @@
     "points": 0,
     "description": "Your natural eye color is a bright green.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -123,11 +132,12 @@
     "points": 0,
     "description": "Your natural eye color is a dark green.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -136,11 +146,12 @@
     "points": 0,
     "description": "Your natural eye color is a bright yellow.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -149,11 +160,12 @@
     "points": 0,
     "description": "Your natural eye color is a dark yellow.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -162,11 +174,12 @@
     "points": 0,
     "description": "Your natural eye color is a bright purple.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
@@ -175,19 +188,21 @@
     "points": 0,
     "description": "Your natural eye color is a dark purple.",
     "starting_trait": true,
-    "valid": true,
+    "vanity": true,
+    "valid": false,
     "purifiable": false,
     "player_display": false,
     "flags": [ "eyes_cute" ],
-    "types": [ "EYES" ]
+    "types": [ "eye_color" ]
   },
   {
     "type": "mutation",
-    "id": "SKIN_PALE_JP", 
+    "id": "SKIN_PALE_JP",
     "name": "Cute pale skin",
     "points": 0,
     "description": "Your natural skin color is (or was) rather pale.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -200,6 +215,7 @@
     "points": 0,
     "description": "Your natural skin color is (or was) rather pale.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -212,6 +228,7 @@
     "points": 0,
     "description": "Your natural skin color is (or was) rather pale.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -224,6 +241,7 @@
     "points": 0,
     "description": "Your natural skin color is (or was) rather pale.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -236,6 +254,7 @@
     "points": 0,
     "description": "Your natural skin color is (or was) rather pale.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -248,6 +267,7 @@
     "points": 0,
     "description": "Your natural skin color is (or was) rather pale.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -260,6 +280,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) blonde.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -273,6 +294,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) red.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -286,6 +308,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) brown.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -299,6 +322,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) black.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -312,6 +336,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) white.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -325,6 +350,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) grey.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -338,6 +364,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) pink.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -351,6 +378,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) orange.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -364,6 +392,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) blue.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -377,6 +406,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) green.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -390,6 +420,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) aqua.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -403,6 +434,7 @@
     "points": 0,
     "description": "Your natural hair color is (or was) purple.",
     "starting_trait": true,
+    "vanity": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
@@ -410,4 +442,3 @@
     "types": [ "hair_style" ]
   }
 ]
-

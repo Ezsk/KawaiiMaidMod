@@ -1190,7 +1190,7 @@
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
-        "rigid": true,
+        "rigid": false,
         "max_contains_volume": "28 L",
         "max_contains_weight": "40 kg",
         "max_item_length": "90 cm",
@@ -1217,7 +1217,7 @@
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
-        "rigid": true,
+        "rigid": false,
         "max_contains_volume": "20 L",
         "max_contains_weight": "30 kg",
         "max_item_length": "60 cm",
@@ -1244,7 +1244,7 @@
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
-        "rigid": true,
+        "rigid": false,
         "max_contains_volume": "10 L",
         "max_contains_weight": "20 kg",
         "max_item_length": "50 cm",
