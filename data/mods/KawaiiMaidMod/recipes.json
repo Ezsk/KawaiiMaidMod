@@ -47,7 +47,7 @@
     "components": [
       [ [ "rag", 30 ] ],
       [ [ "coat_rain", 1 ] ],
-      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ],
+      [ [ "kevlar", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ],
       [ [ "element", 6 ] ],
       [ [ "cable", 12 ] ]
     ]
