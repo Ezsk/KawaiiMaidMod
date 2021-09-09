@@ -1,10 +1,13 @@
-�{�t�@�C���͉��LURL�ɂĔz�z���ꂽ[v2.7.4]KawaiiMaidMod��
-�ŐV�J���łɂē���o����悤�C�����������̂ł��B
+本ファイルは下記URLにて配布された[v2.7.4]KawaiiMaidModを
+最新開発版にて動作出来るよう修正を加えたものです。
 
-�{�t�@�C���̕s��񍐂����₻�̑���Discord��Cataclysm:DDA(JP)�̉��L�X���b�h�ւ��肢���܂��B
+本ファイルの不具合報告ご質問その他はDiscordのCataclysm:DDA(JP)の下記スレッドへお願いします。
 Cataclysm:DDA(JP) : https://discordapp.com/invite/wawQKMK
-���Ɛ�KawaiiMaidMod�X���b�h : https://discord.com/channels/640751986303565854/704292109175226509/882936174472224798
+自家製KawaiiMaidModスレッド : https://discord.com/channels/640751986303565854/704292109175226509/882936174472224798
 
+インストール手順
+現状はdata/modフォルダにKawaiiMaidModフォルダをコピーするだけで動作します。
+原作者様のreadme.txtに記載されている前提mod等は必要なくなりました。
 
 オリジナルファイル配布場所
 https://drive.google.com/open?id=1EHPazdmx9to86IWN7zxkvFjPiUmsFGZl
