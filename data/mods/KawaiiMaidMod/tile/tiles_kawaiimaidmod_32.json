@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo", "Chibi_Ultica" ],
+    "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo", "Chibi_Ultica", "MshockXottoplus" ],
     "tiles-new": [
       {
         "file": "tile/tiles_kawaiimaidmod_32.png",
@@ -10,7 +10,7 @@
         "sprite_offset_x": 0,
         "sprite_offset_y": 0,
         "tiles": [
-          { "id": "player_female", "fg": 0, "bg": 96, "rotates": false },
+          { "id": "player_female", "fg": 0, "bg": 80, "rotates": false },
           { "id": "kawaii_maid_dress", "fg": 1, "rotates": false },
           { "id": "kawaii_maid_dress_ex", "fg": 1, "rotates": false },
           { "id": "kawaii_maid_dress_ex2", "fg": 1, "rotates": false },
