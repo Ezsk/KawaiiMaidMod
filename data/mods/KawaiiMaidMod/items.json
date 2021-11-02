@@ -153,6 +153,7 @@
       { "covers": [ "torso" ], "coverage": 95, "encumbrance": [ 7, 15 ] },
       { "covers": [ "arm_l", "arm_r" ], "coverage": 95, "encumbrance": [ 7, 7 ] }
     ],
+    "material": [ "plastic", "cotton" ],
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "HOOD", "OUTER", "FANCY" ],
     "use_action": {
       "type": "transform",
@@ -171,6 +172,7 @@
       { "covers": [ "torso" ], "coverage": 95, "encumbrance": [ 7, 15 ] },
       { "covers": [ "arm_l", "arm_r" ], "coverage": 95, "encumbrance": [ 7, 7 ] }
     ],
+    "material": [ "plastic", "cotton" ],
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "HOOD", "OUTER", "FANCY" ],
     "use_action": {
       "type": "transform",
@@ -367,6 +369,7 @@
     "description": "メイドさんの大きな特徴である頭飾りです。これを外す事はたとえ真冬でもメイドとしての矜持に反します。気合を入れましょう。",
     "symbol": "[",
     "color": "white",
+    "material": [ "cotton" ],
     "armor": [ { "encumbrance": 2, "coverage": 25, "covers": [ "head" ] } ],
     "warmth": 0,
     "flags": [ "VARSIZE", "FANCY", "WATERPROOF", "RAINPROOF", "SKINTIGHT" ],
@@ -385,6 +388,7 @@
     "description": "メイドさんの大きな特徴である頭飾りです。これを外す事はたとえ真冬でもメイドとしての矜持に反します。気合を入れましょう。",
     "symbol": "[",
     "color": "white",
+    "material": [ "cotton" ],
     "armor": [ { "encumbrance": 2, "coverage": 25, "covers": [ "head" ] } ],
     "warmth": 30,
     "flags": [ "VARSIZE", "FANCY", "WATERPROOF", "RAINPROOF", "SKINTIGHT" ],
@@ -1518,6 +1522,7 @@
     },
     "flags": [ "OUTER", "ALLOWS_NATURAL_ATTACKS", "FANCY" ],
     "warmth": 15,
+    "material": [ "cotton" ],
     "armor": [ { "covers": [ "mouth" ], "coverage": 45, "encumbrance": 2 } ],
     "repairs_like": "kawaii_scarf"
   },
@@ -1533,9 +1538,9 @@
     },
     "description": "かわいい柄物のスカーフですが、襟元にしまい込んで見えないようにしています",
     "price": 1000,
-    "material": [ "cotton" ],
     "weight": "100 g",
     "volume": "750 ml",
+    "material": [ "cotton" ],
     "armor": [ { "covers": [ "mouth" ], "coverage": 25, "encumbrance": 4 } ],
     "use_action": {
       "type": "transform",
@@ -1661,6 +1666,7 @@
     "weight": "100 g",
     "volume": "250 ml",
     "price": 1500,
+    "material": [ "cotton" ],
     "armor": [
       { "covers": [ "leg_l", "leg_r", "foot_l", "foot_r" ], "coverage": 100, "encumbrance": 1 }
     ],
